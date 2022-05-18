@@ -52,7 +52,7 @@ function check() {
             Ergebnis.innerHTML = "Thüringen hat 2,171 Mio Einwohner und Erfurt ist die Hauptstadt";
             break;
         default:
-            console.log('Ein solches Bundesland gibt es in Deutschland nicht.');
+            Ergebnis.innerHTML = 'Ein solches Bundesland gibt es in Deutschland nicht.';
 
     }
 }
